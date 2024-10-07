@@ -25,3 +25,10 @@ const newStringOne = "   hitesh   "
 console.log(newStringOne);
 console.log(newStringOne.trim());
 
+const url = "https://hitesh.com/hitesh%20chaudhary"
+
+console.log(url.replace('%20', '-'));
+
+console.log(url.includes('hitesh'));
+
+console.log(gameName.split('-'));
